@@ -22,6 +22,8 @@ Using this template to create a new Django app is easy::
 
     $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
 
+(If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
+
 You can replace ``helloworld`` with your desired project name.
 
 ## Deployment to Heroku
@@ -40,6 +42,9 @@ See also, a [ready-made application](https://github.com/heroku/python-getting-st
 ## Using Python 2.7?
 
 Just update `runtime.txt` to `python-2.7.13` (no trailing spaces or newlines!).
+
+
+## License: MIT
 
 ## Further Reading
 
